@@ -93,5 +93,10 @@ module.exports = {
 
 ```
 
+在最后的<code>dist/index.html</code>中，可以看到，已自动引入需要的入口文件：
+```html
+  <script type="text/javascript" src="main.2cd5b2a8079542ef99ce.js"></script></body>
+```
+
 
 [原文链接](http://www.css88.com/doc/webpack2/guides/caching/)
