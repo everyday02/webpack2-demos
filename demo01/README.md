@@ -37,9 +37,10 @@ module.exports = {
 }
 ```
 
-在demo01目录下，执行<code>webpack-dev-server</code>，访问地址：http://localhost:8080/
+尝试删除bundle.js文件，然后执行<code>webpack</code>去构建<code>bundle.js</code>。
 
 
+执行<code>webpack-dev-server</code>，访问地址：http://localhost:8080/。
 
 
 entry可有多个，[查看相关文档](http://www.css88.com/doc/webpack2/concepts/entry-points/)
