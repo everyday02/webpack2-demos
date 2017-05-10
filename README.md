@@ -16,9 +16,9 @@
 
 主要针对已有一定前端基础的同学，看不懂的请先打好前端基础。
 
- * demo01 初识webpack.
+ * [demo01 Entry:入口文件](/demo01/README.md).
 
- * demo02 支持es6语法及热更新.
+ * [demo02 Babel:支持es6语法](/demo02/README.md).
 
 
 ### webpack2 - 高级教程
