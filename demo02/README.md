@@ -19,7 +19,7 @@ npm install babel-loader babel-core babel-preset-es2015 webpack --save-dev
 const name = 'Webpack';
 
 const Hello => () {
-  document.write(`Hello ${Webpack}`);
+  document.write(`Hello ${name}`);
 }
 
 Hello();
