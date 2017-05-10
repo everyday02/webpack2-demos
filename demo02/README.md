@@ -1,8 +1,12 @@
 ### Babel:支持es6语法
 
-通过babel-loader实现对es6语法的支持，并通过webpack进行预处理，转化es6语法为es5。
+Babel其实是一个编译JavaScript的编译器，通过它，我们可以使用一些先进的语法进行代码编写：
 
-简单的说：由于es6语法在现有浏览器还未普及支持，通过babel我们可以实现使用es6语法进行代码编写，最终由它（babel）进行预处理，生成的最终<code>bundle.js(源码)</code>会被编译为es5语法。
+* 新的JavaScript标准（ES6，ES7），这些标准目前并未被当前的浏览器完全的支持；
+
+* 使用基于JavaScript进行了拓展的语言，比如React的JSX。
+
+通过babel我们可以实现使用es6语法进行代码编写，最终由它（babel）进行预处理，生成的最终<code>bundle.js(源码)</code>会被编译为es5语法，下面就开始动手吧。
 
 
 使用babel需要安装先3个包
