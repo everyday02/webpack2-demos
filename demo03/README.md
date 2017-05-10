@@ -95,3 +95,19 @@ if(module.hot) {  //判断是否进行热替换
 最基本的热更新配置完成,通过更改<code>/components/Hello.js</code>内容，可以看到，浏览器无刷新便实现内容更新。
 
 有兴趣的同学，可以通过浏览器开发工具 -> 网络(network)，看看更改代码后，网络请求有何变化，有助于理解webpack是如何实现热更新。
+
+
+### 注意点
+  热更新结合Babel使用时，请务必在babel规则配置<code>.babelrc</code>中加上<code>{"modules": false}</code>来禁用Babel模块插件，否则热更新会失败。
+
+  ```json
+  {
+    "presets": [
+      ["es2015", {"modules": false}]
+    ]
+  }
+
+  ```
+
+  注意，不仅仅只有模块热替换的场景需要禁用Babel模块插件。如果你不将
+  插件禁用，你可能会遇到许多其他的问题(查看 从[webpack v1 迁移到 v2](http://www.css88.com/doc/webpack2/guides/migrating/#mixing-es2015-with-amd-and-commonjs) 和 [webpack-tree-shaking](http://2ality.com/2015/12/webpack-tree-shaking.html))。
