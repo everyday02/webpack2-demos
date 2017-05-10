@@ -20,7 +20,7 @@
 
  * [demo02 Babel:支持es6语法](/demo02).
 
- * [demo03 HMR:模块热更新（替换](/demo03).
+ * [demo03 HMR:模块热更新（替换)](/demo03).
 
 
 ### webpack2 - 高级教程
