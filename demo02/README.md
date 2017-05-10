@@ -77,6 +77,3 @@ module.exports = {
 ```
 
 执行<code>webpack-dev-server</code>，访问地址：http://localhost:8080/。
-
-
-entry可有多个，[查看相关文档](http://www.css88.com/doc/webpack2/concepts/entry-points/)
