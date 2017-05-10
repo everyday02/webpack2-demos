@@ -16,9 +16,9 @@
 
 主要针对已有一定前端基础的同学，看不懂的请先打好前端基础。
 
- * [demo01 Entry:入口文件](/demo01/README.md).
+ * [demo01 Entry:入口文件](/demo01).
 
- * [demo02 Babel:支持es6语法](/demo02/README.md).
+ * [demo02 Babel:支持es6语法](/demo02).
 
 
 ### webpack2 - 高级教程
