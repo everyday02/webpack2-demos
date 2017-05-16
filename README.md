@@ -26,7 +26,7 @@
 
  * [demo05 Externals:外部扩展](/demo05)
 
- * [demo06 Loaders:常用加载器](/demo06)
+ * [demo06 Always:常用Loaders和Plugins](/demo06)
 ### webpack2 - 高级教程
 
 高级教程:为了减低demo之间的耦合，<code>package.json</code>文件分别放置在每个demo文件夹下，保证独立性。
