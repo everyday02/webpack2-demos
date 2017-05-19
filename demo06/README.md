@@ -25,7 +25,7 @@ document.write('Hello Webapck');
 
 ```
 
-配置css加载器, 加载器执行顺序，从优至左进行加载解析
+配置css加载器, 加载器执行顺序，从右至左进行加载解析
 对sass和less不太了解的同学, 可以看看[SASS用法指南](http://www.ruanyifeng.com/blog/2012/06/sass.html)
 
 ```javascript
